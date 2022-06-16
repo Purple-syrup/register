@@ -103,6 +103,10 @@ button{
     font-weight: 500px;
 }
 
+button:hover{
+    cursor:pointer;
+}
+
 a{
     color: hsl(0, 100%, 74%);
     font-size: 8px;
