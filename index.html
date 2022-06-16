@@ -23,11 +23,10 @@
         </div>
         <div class="tt">
             <form action="#">
-                <input type="text" name="fn" id="fn" placeholder="First Name" required ><br>
-                <input type="text" name="ln" id="ln" placeholder="Last Name" required><br>
-                <input type="email" name="em" id="em" placeholder="Email Address" oninvalid="this.setCustomValidity('Please Enter valid emai')"
-                oninput="setCustomValidity('')"required ><br>
-                <input type="password" name="ps" id="ps" placeholder="Password" required><br>
+                <input type="text" name="fn" id="fn" placeholder="First Name" required ><span>First Name cannot be empty</span><br>
+                <input type="text" name="ln" id="ln" placeholder="Last Name" required><span>Last Name cannot be empty</span><<br>
+                <input type="email" name="em" id="em" placeholder="Email Address" required ><span>Looks like this is not an email</span><<br>
+                <input type="password" name="ps" id="ps" placeholder="Password" required><span>Password cannot be empty</span><<br>
                 <button type="submit">CLAIM YOUR FREE TRIAL</button><br>
                 
             </form>
